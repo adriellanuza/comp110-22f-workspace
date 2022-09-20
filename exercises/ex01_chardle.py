@@ -9,11 +9,10 @@ if len(word) != 5:
     exit()
 
 character: str = input("Enter a single character: ")
-print('Searching for ' + character + ' in ' + word)
 if len(character) != 1:
     print('Error: Character must be a single character')
     exit()
-
+print('Searching for ' + character + ' in ' + word)
 if word[0] == character:
     print(character + ' found at index 0 ')
     total = total + 1
