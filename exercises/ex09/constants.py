@@ -11,5 +11,12 @@ MIN_Y: float = -MAX_Y
 VIEW_HEIGHT: int = BOUNDS_HEIGHT + 20
 
 CELL_RADIUS: int = 15
-CELL_COUNT: int = 1
-CELL_SPEED: float = 5.0
+CELL_COUNT: int = 10
+CELL_SPEED: float = 1.0
+
+VULNERABLE: int = 0
+INFECTED: int = 1
+STARTING_INFECTED: int = 2
+
+RED: str = "#B22222"
+GRAY: str = "#808080"
